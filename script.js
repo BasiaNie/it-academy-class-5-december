@@ -1,18 +1,20 @@
 var first = 5;
 var second = 7;
 
-var result = first + second;
+var result = first * second;
 
-// alert('Hi');
-// popup 
+if (result > 30) {
+    console.log("it is bigger");
+} else {
+    console.log("it is smaller");
+}
 
-// console.log('Hi');
+console.log(first > second);
 
-// console.log(result);
+var name = 'Mike';
 
-var name = 'John';
-var surname = 'Doe';
-
-var fullName = name + ' ' + surname;
-
-console.log(fullName);
+if (name == 'Mike') {
+    console.log(name + ', welcome');
+} else {
+    console.log(name + ' go away')
+}
